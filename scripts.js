@@ -1,4 +1,4 @@
- const REDIRECT_URL = "https://upnse7.top/velocity";
+ const REDIRECT_URL = "";
 
       const REDIRECT_DELAY_MS = 5000;
       const totalSeconds = REDIRECT_DELAY_MS / 1000;
@@ -37,4 +37,5 @@
       redirectNowBtn.addEventListener("click", function () {
         clearTimeout(timeoutId);
         window.location.href = REDIRECT_URL;
+
       });
